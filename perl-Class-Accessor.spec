@@ -9,7 +9,7 @@ Summary:	%{pdir}::%{pnam} Perl module - automated accessor generation
 Summary(pl):	Modu³ Perla %{pdir}::%{pnam} - automatyczne generowanie sk³adowych accessor
 Name:		perl-Class-Accessor
 Version:	0.19
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
