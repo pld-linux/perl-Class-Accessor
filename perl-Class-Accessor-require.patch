@@ -1,0 +1,11 @@
+--- Class-Accessor-0.17/lib/Class/Accessor.pm.orig	Wed Jul 24 13:40:34 2002
++++ Class-Accessor-0.17/lib/Class/Accessor.pm	Wed Jul 24 13:40:40 2002
+@@ -2,7 +2,7 @@
+ 
+ package Class::Accessor;
+ 
+-require 5.00502;
++require 5.005_02;
+ 
+ use strict;
+ 
