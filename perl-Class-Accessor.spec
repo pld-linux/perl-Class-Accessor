@@ -26,7 +26,7 @@ Ten modu³ automatycznie generuje sk³adniki accessor/mutator dla klas.
 %patch -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 #%{__make} test
 
