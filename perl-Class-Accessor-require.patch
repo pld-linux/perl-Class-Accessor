@@ -1,11 +1,10 @@
---- Class-Accessor-0.17/lib/Class/Accessor.pm.orig	Wed Jul 24 13:40:34 2002
-+++ Class-Accessor-0.17/lib/Class/Accessor.pm	Wed Jul 24 13:40:40 2002
-@@ -2,7 +2,7 @@
- 
+diff -burN Class-Accessor-0.19.orig/lib/Class/Accessor.pm Class-Accessor-0.19/lib/Class/Accessor.pm
+--- Class-Accessor-0.19.orig/lib/Class/Accessor.pm	2004-03-06 23:05:12.795826160 +0100
++++ Class-Accessor-0.19/lib/Class/Accessor.pm	2004-03-06 23:05:42.754271784 +0100
+@@ -1,5 +1,5 @@
  package Class::Accessor;
- 
 -require 5.00502;
 +require 5.005_02;
- 
  use strict;
+ $Class::Accessor::VERSION = '0.19';
  
