@@ -1,7 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	Accessor
-Summary:	%{pdir}::%{pnam} - Automated accessor generation
+Summary:	%{pdir}::%{pnam} Perl module - Automated accessor generation
+Summary(pl):	Modu³ Perla %{pdir}::%{pnam} - automatyczne generowanie sk³adowych accessor
 Name:		perl-Class-Accessor
 Version:	0.17
 Release:	1
@@ -16,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module automatically generates accessor/mutators for your class.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ automatycznie generuje sk³adniki accessor/mutator dla klas.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
