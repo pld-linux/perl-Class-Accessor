@@ -1,11 +1,15 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Class
 %define		pnam	Accessor
-Summary:	%{pdir}::%{pnam} Perl module - Automated accessor generation
+Summary:	%{pdir}::%{pnam} Perl module - automated accessor generation
 Summary(pl):	Modu³ Perla %{pdir}::%{pnam} - automatyczne generowanie sk³adowych accessor
 Name:		perl-Class-Accessor
-Version:	0.17
-Release:	3
+Version:	0.18
+Release:	1
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -28,7 +32,8 @@ Ten modu³ automatycznie generuje sk³adniki accessor/mutator dla klas.
 %build
 %{__perl} Makefile.PL
 %{__make}
-#%%{__make} test
+
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
