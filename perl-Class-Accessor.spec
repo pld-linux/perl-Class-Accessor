@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Accessor
+%define		pdir	Class
+%define		pnam	Accessor
 Summary:	Class::Accessor - automated accessor generation
 Summary(pl):	Class::Accessor - automatyczne generowanie sk³adowych accessor
 Name:		perl-Class-Accessor
