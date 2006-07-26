@@ -9,7 +9,7 @@ Summary:	Class::Accessor - automated accessor generation
 Summary(pl):	Class::Accessor - automatyczne generowanie sk³adowych accessor
 Name:		perl-Class-Accessor
 Version:	0.27
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -31,6 +31,8 @@ Ten modu³ automatycznie generuje sk³adniki accessor/mutator dla klas.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p1
+
+find . '(' -name '*~' -o -name '*.orig' ')' -print0 | xargs -0 -r -l512 rm -f
 
 %build
 %{__perl} Makefile.PL \
