@@ -1,0 +1,3 @@
+- fixed required perl version (-require.patch)
+- added Changes to %doc
+- release 2
