@@ -30,7 +30,7 @@ Ten modu³ automatycznie generuje sk³adniki accessor/mutator dla klas.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -p1
+%patch0 -p1
 
 find . '(' -name '*~' -o -name '*.orig' ')' -print0 | xargs -0 -r -l512 rm -f
 
