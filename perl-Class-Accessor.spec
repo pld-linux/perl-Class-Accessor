@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Accessor
 Summary:	Class::Accessor - automated accessor generation
-Summary(pl):	Class::Accessor - automatyczne generowanie sk≥adowych accessor
+Summary(pl.UTF-8):   Class::Accessor - automatyczne generowanie sk≈Çadowych accessor
 Name:		perl-Class-Accessor
 Version:	0.27
 Release:	2
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module automatically generates accessor/mutators for your class.
 
-%description -l pl
-Ten modu≥ automatycznie generuje sk≥adniki accessor/mutator dla klas.
+%description -l pl.UTF-8
+Ten modu≈Ç automatycznie generuje sk≈Çadniki accessor/mutator dla klas.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
