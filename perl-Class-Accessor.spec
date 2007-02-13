@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Accessor
 Summary:	Class::Accessor - automated accessor generation
-Summary(pl.UTF-8):   Class::Accessor - automatyczne generowanie składowych accessor
+Summary(pl.UTF-8):	Class::Accessor - automatyczne generowanie składowych accessor
 Name:		perl-Class-Accessor
 Version:	0.27
 Release:	2
