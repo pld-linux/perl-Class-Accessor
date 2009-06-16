@@ -8,13 +8,13 @@
 Summary:	Class::Accessor - automated accessor generation
 Summary(pl.UTF-8):	Class::Accessor - automatyczne generowanie składowych accessor
 Name:		perl-Class-Accessor
-Version:	0.31
+Version:	0.33
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d13df2381878ccdb847c23ab6af7e4fa
+# Source0-md5:	574c4b8e42d52f6980b4d2e258746f7b
 URL:		http://search.cpan.org/dist/Class-Accessor/
 Patch0:		%{name}-require.patch
 BuildRequires:	perl-devel >= 1:5.8.0
