@@ -13,10 +13,10 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0d9640d237a13276145f7e44b4855b89
-URL:		http://search.cpan.org/dist/Class-Accessor/
 Patch0:		%{name}-require.patch
+URL:		http://search.cpan.org/dist/Class-Accessor/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/%{pdir}/*.pm
-%{perl_vendorlib}/%{pdir}/%{pnam}
-%{_mandir}/man3/*
+%{perl_vendorlib}/Class/Accessor.pm
+%{perl_vendorlib}/Class/Accessor
+%{_mandir}/man3/Class::Accessor*.3pm*
